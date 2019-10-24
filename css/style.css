@@ -6810,9 +6810,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: -moz-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
-  background-image: -webkit-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
-  background-image: -ms-linear-gradient(-89deg, #9300ff 0%, #d500ff 100%);
+  background-image: -moz-linear-gradient(-89deg, #9300ff 0%, #FA2000 100%);
+  background-image: -webkit-linear-gradient(-89deg, #9300ff 0%, #FA2000 100%);
+  background-image: -ms-linear-gradient(-89deg, #9300ff 0%, #FA2000 100%);
   opacity: 0.8;
   z-index: -1;
 }
