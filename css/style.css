@@ -6789,7 +6789,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("../img/breadcum_bg.png");
+  /* background-image: url("../img/breadcum_bg.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6812,7 +6812,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   background-image: -moz-linear-gradient(-89deg, #9300ff 0%, #FA2000 100%);
   background-image: -webkit-linear-gradient(-89deg, #9300ff 0%, #FA2000 100%);
-  background-image: -ms-linear-gradient(-89deg, #9300ff 0%, #FA2000 100%);
+  background-image: -ms-linear-gradient(-89deg, #9300ff 0%, #ff0095 100%);
   opacity: 0.8;
   z-index: -1;
 }
