@@ -1,0 +1,35 @@
+#popUpMain {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	color: rgba(255,255,255,0.6);
+	z-index: 1001;
+}
+#popup{
+	width: 500px;
+	height: 250px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://unsplash.com/photos/iWrj6pDlkug');
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 2px 2px 5px 3px white;
+}
+#newsHeading{
+	transform: translate(50px);
+	color: white;
+}
+#emailId{
+	width: 60%;
+	padding: 5px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+.submitId{
+	background-color: #0fc0fa;
+	border: none;
+	font-size: 1rem;
+	padding: 0.6rem, 1rem;
+	color: white
+}

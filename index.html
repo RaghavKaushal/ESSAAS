@@ -27,9 +27,23 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!--popup CSS-->
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 
 <body>
+
+<!-- POPUP-->
+<div id = "popUpMain" style = "display: none;">
+    <div id = "popup">
+        <h1 id = "newsHeading"> 
+            Subscribe to our newsletter
+        </h1>
+        <input type = "email" name = "" id = "emailId" placeholder = "email@user.com">
+        <button class = "submitId" href = "#"> Subscribe </button> 
+        <button class = "submitId" href = "#"> Subscribe </button> 
+    </div>
+</div>
     <!--::header part start::-->
     <header class="main_menu home_menu">
         <div class="container">
@@ -52,11 +66,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">about</a>
                                 </li>
-                                
-
-                                
-                               
-
                                 <li class="nav-item">
                                     <a class="nav-link" href="mailTo:raghavkaushalfam@gmail.com">Contact</a>
                                 </li>
@@ -79,21 +88,20 @@
                 <div class="col-lg-7">
                     <div class="banner_text text-center">
                         <div class="banner_text_iner">
-                            <h1>Help The <br>
-                                Children in Need </h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut</p>
-                            <a href="#" class="btn_2">Start Donation</a>
+                            <h1>The Nobodys <br>
+                                 </h1>
+                            <p>An assembly of SaaS tools created by young entrepreneurs</p>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="banner_video">
                         <div class="banner_video_iner">
-                            <img src="img/banner_video.png" alt="">
+                            <img src="img/saas-logo.png" alt="">
                             <div class="extends_video">
                                 <a id="play-video_1" class="video-play-button popup-youtube"
-                                    href="https://www.youtube.com/watch?v=pBFQdxA-apI">
+                                    href="https://www.youtube.com/watch?v=KUln2DXU5VE">
                                     <span class="fas fa-play"></span>
                                 </a>
                             </div>
@@ -111,14 +119,11 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-4 col-sm-10">
                     <div class="service_text">
-                        <h2>We are CharityPress
-                            Funding Network
-                            Worldwide.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                        <a href="service.html" class="btn_3">learn more</a>
+                        <h2>We build tools for masses, easily affordable and simple to use.</h2>
+                        <p>A vision dreamt by young entrepreneurs
+                         to create impactful tools and inspire
+                          new ways of improving life.  </p>
+                        <a href="service.html" class="btn_3">Join the team</a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-xl-6">
@@ -165,34 +170,7 @@
     <!-- service part end-->
 
     <!-- about part end-->
-    <section class="about_us">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6">
-                    <div class="about_us_img">
-                        <img src="img/top_service.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about_us_text">
-                        <h5>
-                            2000<br><span>since</span>
-                        </h5>
-                        <h2>About Believe</h2>
-                        <p>According to the research firm Frost & Sullivan, the estimated
-                            size of the North American used test and measurement equipment
-                            market was $446.4 million in 2004 and is estimated to grow to
-                            $654.5 million by 2011. For over 50 years, companies and governments
-                            have procured used test and measurement instruments.</p>
 
-                        
-                    </div>
-                   
-                </div>
-                
-            </div>
-        </div>
-    </section>
     <!-- about part end-->
 
     <!--::passion part start::-->
@@ -201,24 +179,56 @@
             <div class="row">
                 <div class="col-xl-5 col-md-8">
                     <div class="section_tittle">
-                        <h2>Our Causes</h2>
+                        <h2>Our Products</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna </p>
 
                     </div>
                 </div>
             </div>
-            
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-passion">
+                        <div class="card">
+                            <img src="img/passion/passion_1.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+
+                                <a href="#">
+                                    <h5 class="card-title">Vegan </h5>
+                                </a>
+                                <p> Get a $5 vegan diet  and unfold the unique way to stay in shape.</p>
+                                <ul>
+                                    <li><img src="img/icon/passion_1.svg" alt=""> Goal: $2500</li>
+                                    <li><img src="img/icon/passion_2.svg" alt=""> Raised: $1533</li>
+                                </ul>
+                                <div class="skill">
+                                        <div class="skill-bar skill11 wow slideInLeft animated">
+                                            <span class="skill-count11">75%</span>
+                                        </div>
+                                    </div>
+                                <a href="#" class="btn_2">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4 col-xl-4">
                     <div class="single-home-passion">
                         <div class="card">
                             <img src="img/passion/passion_2.png" class="card-img-top" alt="blog">
                             <div class="card-body">
                                 <a href="#">
-                                    <h5 class="card-title">Fourth created forth fill
-                                        created subdue be </h5>
+                                    <h5 class="card-title">Coming soon </h5>
                                 </a>
-                                
+                                <p>Coming soon </p>
+                                <ul>
+                                    <li><img src="img/icon/passion_1.svg" alt=""> Goal: $2500</li>
+                                    <li><img src="img/icon/passion_2.svg" alt=""> Raised: $1533</li>
+                                </ul>
+                                <div class="skill">
+                                        <div class="skill-bar skill11 wow slideInLeft animated">
+                                            <span class="skill-count11">75%</span>
+                                        </div>
+                                    </div>
                                 <a href="#" class="btn_2">read more</a>
 
                             </div>
@@ -294,6 +304,27 @@
 
                     </div>
                 </div>
+                 <div class="col-sm-6 col-lg-3">
+                    <div class="single_footer_part">
+                        <h4>Subscribe to our Newsletter</h4>
+                        <p>
+                            Stay updated with what we launch
+                        </p>
+                        <div id="mc_embed_signup">
+                            <form target="_blank"
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get" class="subscribe_form relative mail_part" required>
+                                <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
+                                    class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = ' Email Address '" required="" type="email">
+                                <button type="submit" name="submit" id="newsletter-submit"
+                                    class="email_icon newsletter-submit button-contactForm"><i
+                                        class="far fa-paper-plane"></i></button>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
                 
             </div>
@@ -343,6 +374,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/contact.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+    <!--popup js-->
+    <script src="js/pop-out.js"></script>
 </body>
 
 </html>

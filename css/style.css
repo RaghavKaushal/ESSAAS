@@ -2317,7 +2317,7 @@ input:-internal-autofill-selected {
   position: fixed;
   z-index: 9999 !important;
   width: 100%;
-  background-color: #8d00ff;
+  background-color: #ff0000;
   top: 0;
 }
 
@@ -2341,7 +2341,7 @@ input:-internal-autofill-selected {
 .banner_part {
   height: 950px;
   position: relative;
-  background-image: url(../img/banner_img.png);
+  /* background-image: url(../img/banner_img.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
